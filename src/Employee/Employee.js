@@ -1,7 +1,7 @@
-exports.employee = class{
+exports.Employee = class{
 
     constructor(emp){
-        this.Id = emp.Id;
+        this._id = emp._id;
         this.Name =emp.Name;
         this.Age= emp.Age;
     }

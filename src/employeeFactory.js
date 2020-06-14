@@ -1,6 +1,6 @@
 const file = require("fs");
 const path = require("path");
-const emp = require("./employee.js");
+const emp = require("../model/Employee/employee.js");
 exports.employeeFactory = class{
   getAll() {
      var data = file.readFileSync("./src/employeeData.json");
